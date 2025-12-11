@@ -1,7 +1,11 @@
 package com.jsp.addressbook.entity;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+
+@Entity
 public class Contact {
-	
+	@Id
 	private int id;
 	private String name;
 	private String phone;
